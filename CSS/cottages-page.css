@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;   
+    background-image:linear-gradient(rgba(239, 242, 244, 0.119),
+    rgba(6, 40, 77, 0.5)), url(img/cottage-bgi.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 50px;
+}
+header{
+    font-family: "Abril Fatface", serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px;
+    backdrop-filter: blur(2px);
+}
+h1 a{
+    text-decoration: none;
+    color: #85bfeb;   
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+}
+h1 a:hover{
+    color: #f2d297;
+    text-shadow: 1px 8px 10px rgba(20,14,167,0.69);
+}
+main{
+    display: flex;
+}
+nav a{
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #85bfeb;   
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(1px);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding:10px;
+}
+nav a:hover{
+    background-color:  #11596b63;
+    color: #255382;  
+}
+#wrapper{
+    color: #f2f5f6; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+    background-color:  #11596b63;
+    width: 50%;
+    border-radius: 50px ;  
+    margin: 150px 100px 250px 30px;
+    padding: 20px  150px; 
+}
+h2{
+    font-family: "Outfit",sans-serif;
+    padding: 50px;  
+    padding-bottom: 10px;  
+    padding-top: 20px;
+    font-size: 30px;   
+    color: #85bfeb;
+    text-align: center;
+}
+p{
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 15px; 
+    text-align: justify;
+    line-height: 2; 
+    background-color: #eee3cd70; 
+    margin: 0 -50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+} 
+ul{
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 10px; 
+    background-color: #eee3cd70;
+    padding: 10px ; 
+    margin: 0 -50px;
+    border-radius: 30px; 
+}
+.collage-img{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    margin-left: 10px;
+}
+.collage-img img{
+    border-radius: 50px; 
+    margin-top: 60px;
+    float: right;   
+    width: 100%;  
+    height: auto;  
+    box-shadow: 5px 10px rgba(0, 24, 53, 0.318);
+}
+.corkage li{
+    font-size: 15px; 
+    list-style-type: none;
+    text-align: center;
+    line-height: 2; 
+}
+.Entrance p{
+    font-size: 15px;
+    margin: 15px -40px;
+}

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Basikerville", serif;
+  }
+  body{
+    background-image:linear-gradient(rgba(10, 123, 85, 0.672),
+    rgba(19, 137, 101, 0.5)), url(img/reservation-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px;
+    text-decoration: none;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+ }
+  h1 a{
+    text-decoration: none;
+    font-family: "Abril Fatface", serif;
+    color: #97f2af;   
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+}
+h1 a:hover{
+  color: #f2d297;
+  text-shadow: 1px 8px 10px rgba(20,14,167,0.69);
+}
+  nav{
+    margin-top: 7px;
+  }
+  nav a{
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #97f2af;   
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding:10px;
+}
+nav a:hover{
+    color: #145f4f;
+    background-color: #119175d1;
+    border-radius: 30px;
+}
+.Reservationf{
+  padding: 40px;
+  padding-top: 0;
+  padding-bottom: 70px;
+  text-align: center;
+  color: #97f2af; 
+}
+.Reservationf h2{
+  font-family: "Urbanist", sans-serif;
+  background-color: #145f4f;
+  border-radius: 50px 20px 50px 20px;
+}
+form{
+  margin: 400px;
+  margin-top: 130px;
+  margin-bottom: 0;
+  padding: 50px;
+  background-color: #0d92758a;
+  border-radius: 40px;
+}
+.input-group{
+  margin-bottom: 30px;
+  position: relative;
+  margin-top: -20px;
+}
+input,textarea{
+  width: 100%;
+  padding: 5px;
+  outline: 0;
+  border: 3px solid black;
+  border-radius: 50px;
+  color: #0e0d1b;
+  background: transparent;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: -10px;
+}
+label{
+  font-family: "Urbanist", sans-serif;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #000000;
+  cursor: text;
+  transition: 0.2s;
+}
+button{
+  padding: 10px 0;
+  color: #FFF6E9;
+  outline: none;
+  background: transparent;
+  border: 3px solid #ffd294;
+  border-radius: 50px;
+  width: 103%;
+  cursor: pointer;
+}
+button:hover{
+  color:#ffffff;
+  background-color: #145f4f;
+}
+input:focus~label,
+input:valid~label{
+  top: -35px;
+  font-size: 14px;
+  color: #ffffff;
+  font-style: italic;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.row.input-group{
+  flex-basis: 48%;
+}
+.row2{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+ 
+}
+.row2.input-group{
+  flex-basis: 48%;
+}
+
+.checkdate{
+  top: -30px;
+}
+main{
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image:linear-gradient(rgba(5, 5, 5, 0.5),
+  rgba(119, 87, 7, 0.5)), url(img/rooms-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+header{
+  font-family: "Abril Fatface", serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  backdrop-filter: blur(2px);
+  border-bottom-left-radius: 30px; 
+  border-bottom-right-radius: 30px;
+  text-decoration: none;
+  color: #1a2fec;   
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+}
+h1 {
+  text-decoration: none;
+  color: #f2d297;   
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+}
+h1 :hover{
+  color: #646361;
+  text-shadow: 1px 8px 10px rgba(20,14,167,0.69);
+}
+nav{
+  margin-top: 7px;
+}
+nav a{
+  font-family: "Outfit",sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  color:#f2d297;   
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  border-radius: 30px;
+  padding:10px;
+}
+nav a:hover{
+  background-color: #c3a66f;
+  color: #60420a;
+}
+
+#container{ 
+  border-radius: 60px 30px 30px 50px;
+ background-color: #c3a66f;
+ box-shadow: 10px 10px rgba(172, 150, 76, 0.6);
+
+;
+  display: flex;
+  margin: 200px 200px 100px 200px;
+}
+#container img{
+  width: 400px; 
+  height: 400px;
+  border-radius: 60px 0 0 50px;
+}
+#text-area{
+  font-family: "Outfit",sans-serif;
+  font-size: 25px;
+  margin-top: 50px;
+  color: #432e08;   
+  text-shadow: 1px 2px 2px rgb(99, 99, 85);
+}
+#text-area p{
+  background-color: #785b2675;
+  padding: 10px;
+  margin-right: 300px;
+}
+#text-area ul{
+  margin: 30px 50px 0 50px;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+  

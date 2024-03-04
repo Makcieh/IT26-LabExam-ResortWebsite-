@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reserve.css">
+    <link rel="shortcut icon" type="x-icon" href="img/logo.png"> 
+    <title>Reservation</title>
+</head>
+<header>
+    <h1><a href="index.html">Rain & Angel Resort</a></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cottages-page.html">Cottage</a>
+      <a href="room-rates-page.html">Room Rates</a> 
+      <a href="about-us-page.html">About Us</a>
+    </nav>
+  </header>
+<body>
+        <form>
+            <div class="Reservationf"><h2>Reservation Form</h2></div>
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" name="firstname" id="firstname" required><br>
+                    <label for="firstname">First Name</label><br>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="lastname" id="lastname" required><br>
+                    <label for="lastname">Last Name</label><br>
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="tel" name="cellno" id="cellno" required><br>
+                <label for="cellno">Contact Number</label><br>
+            </div>
+            
+            <div class="input-group">
+                <input type="email" name="email" id="email" required><br>
+                <label for="email">Email</label><br>
+            </div>
+            <div class="row2">
+                <div class="input-group">
+                    <input type="date" name="check-i" id="check-in" required><br>
+                    <label for="check-in" class="checkdate">Check-in</label><br>
+                </div>
+                <div class="input-group">
+                    <input type="date" name="check-out" id="check-out" required><br>
+                    <label for="checkout" class="checkdate">Check-out</label><br>
+                </div>
+            </div>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </body>
+</html>
